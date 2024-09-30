@@ -21,4 +21,5 @@ from certificates import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('issue/', views.issue_certificate_view, name='issue_certificate'),
+    path('get/', views.get_certificate_view, name='get_certificate'),
 ]
